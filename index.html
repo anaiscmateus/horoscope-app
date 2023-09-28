@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Horoscope App</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Video by Oleg Gamulinskii from Pexels: https://www.pexels.com/video/shades-of-lights-in-the-outer-space-2611250/ -->
+		<video src="img/background.mp4" muted autoplay loop></video>
+		<section class="container">
+			<div class="horoscope">
+				<img src="img/wheel.svg" alt="zodiac-wheel" class="zodiac">
+				<h1>Find Out Your Zodiac Sign</h1>
+				<h2>Enter Your Birthday:</h2>
+				<form>
+					<!-- MONTHS -->
+					<label for="month-list"></label>
+					<select name="month" id="month-list">
+						<option value="">Month</option>
+						<option value="January" class="month">January</option>
+						<option value="February" class="month">February</option>
+						<option value="March" class="month">March</option>
+						<option value="April" class="month">April</option>
+						<option value="May" class="month">May</option>
+						<option value="June" class="month">June</option>
+						<option value="July" class="month">July</option>
+						<option value="August" class="month">August</option>
+						<option value="September" class="month">September</option>
+						<option value="October" class="month">October</option>
+						<option value="November" class="month">November</option>
+						<option value="December" class="month">December</option>
+					</select>
+					<!-- DAYS -->
+					<label for="day-list"></label>
+					<select name="day" id="day-list">
+						<option value="">Day</option>
+						<option value="1" class="date">1</option>
+						<option value="2" class="date">2</option>
+						<option value="3" class="date">3</option>
+						<option value="4" class="date">4</option>
+						<option value="5" class="date">5</option>
+						<option value="6" class="date">6</option>
+						<option value="7" class="date">7</option>
+						<option value="8" class="date">8</option>
+						<option value="9" class="date">9</option>
+						<option value="10" class="date">10</option>
+						<option value="11" class="date">11</option>
+						<option value="12" class="date">12</option>
+						<option value="13" class="date">13</option>
+						<option value="14" class="date">14</option>
+						<option value="15" class="date">15</option>
+						<option value="16" class="date">16</option>
+						<option value="17" class="date">17</option>
+						<option value="18" class="date">18</option>
+						<option value="19" class="date">19</option>
+						<option value="20" class="date">20</option>
+						<option value="21" class="date">21</option>
+						<option value="22" class="date">22</option>
+						<option value="23" class="date">23</option>
+						<option value="24" class="date">24</option>
+						<option value="25" class="date">25</option>
+						<option value="26" class="date">26</option>
+						<option value="27" class="date">27</option>
+						<option value="28" class="date">28</option>
+						<option value="29" class="date">29</option>
+						<option value="30" class="date">30</option>
+						<option value="31" class="date">31</option>
+					</select>
+					<!-- SUBMIT -->
+					<button type="button" id="submit">Submit</button>
+				</form>
+				<!-- SIGN -->
+				<h2 id="sign"></h2>
+				<p id="desc"></p>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
