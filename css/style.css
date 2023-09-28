@@ -40,22 +40,22 @@ body > video {
 }
 
 .zodiac {
-  max-width: 28rem;
+  max-width: 30rem;
   width: 100%;
 }
 
 h1, h2 {
-  font-size: 3rem;
+  font-size: 6rem;
   margin: 2.5rem 0;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 form select {
   margin: 0 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1rem;
   border: 3px solid gray;
   border-radius: 0.25rem;
@@ -64,7 +64,7 @@ form select {
 #submit {
   margin: 2.5rem auto;
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1.5rem 2rem;
   cursor: pointer;
   border: 3px solid gray;
@@ -74,7 +74,7 @@ form select {
 }
 
 #desc {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 0 5rem;
   line-height: 1.2;
 }
